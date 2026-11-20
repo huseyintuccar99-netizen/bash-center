@@ -620,7 +620,7 @@ execute_command() {
     if ! resolve_bash; then
         STATUS="Bash executable not found"
         return
-    end
+    fi
 
     build_args
     : > "$OUT"
